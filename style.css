@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+button{
+    background: #FF589B;
+    color: #ffffff;
+    background: linear-gradient(180deg,rgba(255, 88, 155, 1) 0%, rgba(255, 19, 111, 1) 100%);
+    font-size: 16px;
+    font-weight: 500;
+    height: 52px;
+    width: 168px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* --------Nav-Bar-Section--------- */
+
+header{
+    max-width: 1124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 49px auto 63px;
+    
+}
+/* h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #1F1F1F;
+} */
+.search-box{
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    width: 508px;
+    max-width: 50%;
+}
+.search-box input{
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+.search-box i{
+    color: #BABABA;
+    font-size: 24px;
+}
+
+.menu-section ul {
+    display: flex;
+    max-width: 345px;
+    flex-wrap:wrap;
+    gap: 24px;
+}
+.menu-section ul li{
+    list-style: none;
+}
+.menu-section ul li a{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    text-decoration: none;
+}
+
+/* -----Bennar-Section----- */
+
+.bennar-section{
+    display: flex;
+    height: 455px;
+    max-width: 1212px;
+    margin: 0 auto;
+    background: #FEEAE9;
+    border-radius: 24px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 63px;
+    flex: 1;
+    gap: 8px;
+}
+.bennar{
+    height: 319px;
+    max-width: 560px;
+}
+.bennar h2{
+    font-size: 56px;
+    font-weight: bold;
+    color: #1f1f1f;
+}
+.tv-img img{
+    max-width: 402px;
+    height: 378px;
+}
+span{
+    font-size: 41px;
+    font-weight: 500;
+    color: #FF136F;
+}
+
