@@ -35,7 +35,7 @@ button{
 /* --------Nav-Bar-Section--------- */
 
 header{
-    max-width: 1124px;
+    max-width: 1212px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,6 @@ header{
     outline: none;
     flex: 1;
     font-size: 20px;
-    background-color: #ffffff;
 }
 .search-box i{
     color: #BABABA;
@@ -71,7 +70,6 @@ header{
 
 .menu-section ul {
     display: flex;
-    max-width: 345px;
     flex-wrap:wrap;
     gap: 24px;
 }
@@ -188,4 +186,62 @@ span{
     max-width: 297px;
 }
 
-/* ------Backpack-items-------- */
+
+/* ------LET'S STAY IN TOUCH------ */
+footer{
+    margin: 75px;
+    background: #FEEAE9;
+    height: 455px;
+    max-width: 1212;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 24px;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input-section input{
+    height: 73px;
+    width: 526px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+footer h4{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+#Send-button{
+    height: 73px;
+    width: 157px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+.input-section{
+    display: flex;
+    justify-content: center;
+
+
+}
+.touch{
+    padding: 146px 0;
+    align-items: center;
+}
