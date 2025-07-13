@@ -13,6 +13,12 @@ p {
     font-weight: 400;
     color: #4E4E4E;
 }
+h3{
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
 button{
     background: #FF589B;
     color: #ffffff;
@@ -86,14 +92,13 @@ header{
     display: flex;
     height: 455px;
     max-width: 1212px;
-    margin: 0 auto;
+    margin: 0 auto 64px;
     background: #FEEAE9;
     border-radius: 24px;
     justify-content: space-between;
     align-items: center;
     padding: 0 63px;
     flex: 1;
-    gap: 8px;
 }
 .bennar{
     height: 319px;
@@ -117,34 +122,29 @@ span{
 
 /* ----------categories-section---------------- */
 
-.categories-section h3{
-    font-size: 36px;
-    font-weight: 600;
-    padding-bottom: 24px;
-    padding-top: 64px;
-}
+
 .categories-section{
     max-width: 1128px;
     margin: 0 auto;
-}
 
+}
 .categories{
     display: flex;
     align-items: center;
     height: 120px;
-    max-width: 359px;
+    width: 359px;
     background: linear-gradient(180deg, #FF9C35 0%, #FFD019 100%);
     justify-content: space-between;
     border-radius: 15px;
-    margin: 0 auto;
     padding: 0 48px;
-    gap: 76px;
+
 }
 .categories-items{
     display: flex;
-    flex-wrap: wrap;
     max-width: 1128px;
-    margin: 0 auto;
+    margin: 0 auto 52px;
+    gap: 26px;
+
 }
 .categories img{
     height: 90px;
@@ -155,3 +155,37 @@ span{
     font-weight: 500;
     color: #FEEAE9;
 }
+
+
+/* ------Shoes-items-------- */
+
+.items-section{
+    margin: 0 auto;
+    max-width: 1128px;
+    height: 600px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.title-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1128px;
+    align-items: center;
+}
+.items{
+    height: 501px;
+    max-width: 358px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 24px;
+    text-align: center;
+}
+.items img{
+    max-width: 297px;
+}
+
+/* ------Backpack-items-------- */
