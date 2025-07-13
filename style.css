@@ -112,5 +112,46 @@ span{
     font-size: 41px;
     font-weight: 500;
     color: #FF136F;
+    display: block;
 }
 
+/* ----------categories-section---------------- */
+
+.categories-section h3{
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 24px;
+    padding-top: 64px;
+}
+.categories-section{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    max-width: 359px;
+    background: linear-gradient(180deg, #FF9C35 0%, #FFD019 100%);
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 0 48px;
+    gap: 76px;
+}
+.categories-items{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+.categories img{
+    height: 90px;
+    max-width: auto;
+}
+.categories p{
+    font-size: 36px;
+    font-weight: 500;
+    color: #FEEAE9;
+}
